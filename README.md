@@ -1,5 +1,4 @@
-![Preview](https://res.cloudinary.com/narative/image/upload/oscura-preview.jpg)
-
+![Preview](https://pub-44410522d40d4d4da6715f60f585b00c.r2.dev/misc/oscura-preview.jpg)
 
 # Oscura by Fey
 
@@ -11,9 +10,9 @@ For the best experience, we recommend using these settings in the cursor's setti
 
 ```json
 {
-    "editor.fontFamily": "'SF Mono', 'Fira Code'",
-    "editor.fontSize": 12,
-    "editor.lineHeight": 1.6
+  "editor.fontFamily": "'SF Mono', 'Fira Code'",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 1.6
 }
 ```
 
