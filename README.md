@@ -35,3 +35,51 @@ Search for "Oscura Theme" in the VSCode extensions panel or click "Install" from
 For editors that use Open VSX Registry (VSCodium, Fleet, Windsurf etc) or require manual installation, you can download the `.vsix` file directly. After downloading, install it through your editor's extension menu using the "Install from VSIX" option.
 
 <a href="https://open-vsx.org/extension/Fey/oscura"><strong>Install now</strong></a>
+
+---
+
+## Ports
+
+This fork adds matching ports of Oscura for other tools, so you can carry the palette across your terminal and CLI agent. Both variants — **Midnight** (deeper contrast, `#0B0B0F`) and **Dusk** (softer, `#131419`) — are included. Original VSCode theme by [Fey](https://fey.com); see [narative/oscura](https://github.com/narative/oscura).
+
+### Ghostty
+
+Ports live at [`ghostty/oscura-midnight`](./ghostty/oscura-midnight) and [`ghostty/oscura-dusk`](./ghostty/oscura-dusk).
+
+```bash
+mkdir -p ~/.config/ghostty/themes
+
+# Midnight
+curl -fsSL https://raw.githubusercontent.com/jshmllr/oscura/main/ghostty/oscura-midnight \
+  -o ~/.config/ghostty/themes/oscura-midnight
+
+# Dusk
+curl -fsSL https://raw.githubusercontent.com/jshmllr/oscura/main/ghostty/oscura-dusk \
+  -o ~/.config/ghostty/themes/oscura-dusk
+```
+
+Then in `~/.config/ghostty/config` set one of:
+
+```
+theme = oscura-midnight
+# or
+theme = oscura-dusk
+```
+
+### Claude Code
+
+Ports live at [`claude/oscura-midnight.json`](./claude/oscura-midnight.json) and [`claude/oscura-dusk.json`](./claude/oscura-dusk.json), using the custom-theme override schema.
+
+```bash
+mkdir -p ~/.claude/themes
+
+# Midnight
+curl -fsSL https://raw.githubusercontent.com/jshmllr/oscura/main/claude/oscura-midnight.json \
+  -o ~/.claude/themes/oscura-midnight.json
+
+# Dusk
+curl -fsSL https://raw.githubusercontent.com/jshmllr/oscura/main/claude/oscura-dusk.json \
+  -o ~/.claude/themes/oscura-dusk.json
+```
+
+Then in Claude Code run `/theme` and pick **Oscura Midnight** or **Oscura Dusk**.

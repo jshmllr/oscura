@@ -1,0 +1,45 @@
+{
+  "name": "Oscura Dusk",
+  "base": "dark",
+  "overrides": {
+    "claude": "#E6E7A3",
+    "text": "#E6E6E6",
+    "inverseText": "#000000",
+    "inactive": "#868F97",
+    "subtle": "#46474F",
+    "suggestion": "#E6E7A3",
+    "permission": "#E6E7A3",
+    "remember": "#E6E7A3",
+
+    "success": "#4EBE96",
+    "error": "#FF5C5C",
+    "warning": "#D2D714",
+    "merged": "#6E678E",
+
+    "promptBorder": "#5C6974",
+    "planMode": "#479FFA",
+    "autoAccept": "#4EBE96",
+    "bashBorder": "#F9B98C",
+    "ide": "#479FFA",
+    "fastMode": "#F9B98C",
+
+    "diffAdded": "#243C30",
+    "diffRemoved": "#3F2326",
+    "diffAddedDimmed": "#1A2C24",
+    "diffRemovedDimmed": "#2C191C",
+    "diffAddedWord": "#2D5742",
+    "diffRemovedWord": "#5A2530",
+
+    "userMessageBackground": "#1C1D24",
+    "userMessageBackgroundHover": "#272832",
+    "messageActionsBackground": "#2C2C31",
+    "bashMessageBackgroundColor": "#251F18",
+    "memoryBackgroundColor": "#25251D",
+    "selectionBg": "#5A5B63",
+
+    "rate_limit_fill": "#E6E7A3",
+    "rate_limit_empty": "#32333B",
+    "briefLabelYou": "#54C0A3",
+    "briefLabelClaude": "#E6E7A3"
+  }
+}
